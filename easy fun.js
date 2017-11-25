@@ -10,6 +10,5 @@
 // All numbers shold be reounded to the nearest hundreth (e.g. 21.00 NOT 21.0 or 21) (HINT: google toFixed)
 
 function usdcny(usd) {
-  usd * 6.75 =
-
+  return (usd * 6.75).toFixed(2) + ' Chinese Yuan'
 }
